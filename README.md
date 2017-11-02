@@ -1,4 +1,4 @@
-# Your First HTML Tag
+# The IceBreakers Homepage HTML
 
 ## Objectives
 
