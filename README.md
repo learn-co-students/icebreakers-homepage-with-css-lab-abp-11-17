@@ -1,4 +1,4 @@
-# The IceBreakers Homepage HTML
+# `<style>` Tags and Element Selector Lab
 
 ## Objectives
 
