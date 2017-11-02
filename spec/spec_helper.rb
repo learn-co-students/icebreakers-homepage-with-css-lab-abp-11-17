@@ -84,3 +84,22 @@ end
 def hint(number)
   Proc.new{YAML.load_file("./.hints")[number]}
 end
+
+def load_html(path)
+  Nokogiri::HTML(File.read(path)) do |config| 
+    config.strict.dtdload.dtdvalid.noblanks
+  end
+end
+
+def parse_css_from_style_tag(doc)
+  style = doc.search("style").text
+  parser = CssParser::Parser.new
+  parser.load_string!(style)
+  parser.to_h["all"]
+end
+
+def parse_css_from_file(path)
+  parser = CssParser::Parser.new
+  parser.load_file!(path)
+  parser.to_h["all"]
+end
