@@ -1,0 +1,249 @@
+Your server is running at 67.205.130.239:42302
+Your server is running at 67.205.130.239:42302
+Your server is running at 67.205.130.239:42302
+[2017-11-08 16:27:49] INFO  WEBrick 1.3.1
+[2017-11-08 16:27:49] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for 0.0.0.0:42302 (Errno::EADDRINUSE)
+	from /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-11-08 16:27:16] INFO  WEBrick 1.3.1
+[2017-11-08 16:27:16] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+[2017-11-08 16:27:16] INFO  WEBrick::HTTPServer#start: pid=596 port=42302
+68.185.250.22 - - [08/Nov/2017:16:28:31 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:28:31 UTC] "GET /style.css HTTP/1.1" 200 0
+http://67.205.130.239:42302/ -> /style.css
+[2017-11-08 16:28:31] ERROR `/favicon.ico' not found.
+68.185.250.22 - - [08/Nov/2017:16:28:31 UTC] "GET /favicon.ico HTTP/1.1" 404 287
+http://67.205.130.239:42302/ -> /favicon.ico
+68.185.250.22 - - [08/Nov/2017:16:30:27 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:30:27 UTC] "GET /style.css HTTP/1.1" 200 50
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:30:27 UTC] "GET /style.css HTTP/1.1" 200 50
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:30:34 UTC] "GET /style.css HTTP/1.1" 200 50
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:30:35 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:30:35 UTC] "GET /style.css HTTP/1.1" 200 50
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:31:28 UTC] "GET /style.css HTTP/1.1" 200 105
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:31:28 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:31:28 UTC] "GET /style.css HTTP/1.1" 200 105
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:33:18 UTC] "GET /style.css HTTP/1.1" 200 185
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:33:18 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:33:18 UTC] "GET /style.css HTTP/1.1" 200 185
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:33:37 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:33:37 UTC] "GET /style.css HTTP/1.1" 200 186
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:33:37 UTC] "GET /style.css HTTP/1.1" 200 186
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:34:41 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:34:41 UTC] "GET /style.css HTTP/1.1" 200 221
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:34:41 UTC] "GET /style.css HTTP/1.1" 200 221
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:35:24 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:35:24 UTC] "GET /style.css HTTP/1.1" 200 250
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:35:25 UTC] "GET /style.css HTTP/1.1" 200 250
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:36:21 UTC] "GET /style.css HTTP/1.1" 200 297
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:36:21 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:36:21 UTC] "GET /style.css HTTP/1.1" 200 297
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:37:22 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:37:22 UTC] "GET /style.css HTTP/1.1" 200 352
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:37:22 UTC] "GET /style.css HTTP/1.1" 200 352
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:38:21 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:38:21 UTC] "GET /style.css HTTP/1.1" 200 424
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:38:22 UTC] "GET /style.css HTTP/1.1" 200 424
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:39:18 UTC] "GET /style.css HTTP/1.1" 200 488
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:39:18 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:39:18 UTC] "GET /style.css HTTP/1.1" 200 488
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:40:09 UTC] "GET /style.css HTTP/1.1" 200 537
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:40:09 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:40:09 UTC] "GET /style.css HTTP/1.1" 200 537
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:40:44 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:40:44 UTC] "GET /style.css HTTP/1.1" 304 0
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:40:45 UTC] "GET /style.css HTTP/1.1" 304 0
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:40:57 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:40:57 UTC] "GET /style.css HTTP/1.1" 200 538
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:40:57 UTC] "GET /style.css HTTP/1.1" 200 538
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:41:33 UTC] "GET /style.css HTTP/1.1" 200 535
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:41:33 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:41:33 UTC] "GET /style.css HTTP/1.1" 200 535
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:41:47 UTC] "GET /style.css HTTP/1.1" 200 534
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:41:47 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:41:47 UTC] "GET /style.css HTTP/1.1" 200 534
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:42:41 UTC] "GET /style.css HTTP/1.1" 200 592
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:42:41 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:42:41 UTC] "GET /style.css HTTP/1.1" 200 592
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:43:26 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:43:26 UTC] "GET /style.css HTTP/1.1" 200 642
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:43:26 UTC] "GET /style.css HTTP/1.1" 200 642
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:43:41 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:43:41 UTC] "GET /style.css HTTP/1.1" 200 642
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:43:42 UTC] "GET /style.css HTTP/1.1" 200 642
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:43:56 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:43:56 UTC] "GET /style.css HTTP/1.1" 200 641
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:43:56 UTC] "GET /style.css HTTP/1.1" 200 641
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:44:34 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:44:34 UTC] "GET /style.css HTTP/1.1" 200 673
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:44:34 UTC] "GET /style.css HTTP/1.1" 200 673
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:44:50 UTC] "GET /style.css HTTP/1.1" 200 672
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:44:50 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:44:50 UTC] "GET /style.css HTTP/1.1" 200 672
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:46:04 UTC] "GET /style.css HTTP/1.1" 200 677
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:46:04 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:46:04 UTC] "GET /style.css HTTP/1.1" 200 677
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:46:28 UTC] "GET /style.css HTTP/1.1" 200 676
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:46:28 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:46:28 UTC] "GET /style.css HTTP/1.1" 200 676
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:46:42 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:46:42 UTC] "GET /style.css HTTP/1.1" 200 672
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:46:42 UTC] "GET /style.css HTTP/1.1" 200 672
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:47:02 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:47:02 UTC] "GET /style.css HTTP/1.1" 200 670
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:47:02 UTC] "GET /style.css HTTP/1.1" 200 670
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:48:05 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:48:05 UTC] "GET /style.css HTTP/1.1" 200 671
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:48:05 UTC] "GET /style.css HTTP/1.1" 200 671
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:49:26 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:49:26 UTC] "GET /style.css HTTP/1.1" 200 778
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:49:26 UTC] "GET /style.css HTTP/1.1" 200 778
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:52:26 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:52:26 UTC] "GET /style.css HTTP/1.1" 200 956
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:52:26 UTC] "GET /style.css HTTP/1.1" 200 956
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:55:18 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:55:18 UTC] "GET /style.css HTTP/1.1" 200 1122
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:55:18 UTC] "GET /style.css HTTP/1.1" 200 1122
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:57:24 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:57:24 UTC] "GET /style.css HTTP/1.1" 200 1298
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:57:24 UTC] "GET /style.css HTTP/1.1" 200 1298
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:59:28 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:16:59:28 UTC] "GET /style.css HTTP/1.1" 200 1444
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:16:59:28 UTC] "GET /style.css HTTP/1.1" 200 1444
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:17:00:02 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:17:00:02 UTC] "GET /style.css HTTP/1.1" 200 1464
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:17:00:02 UTC] "GET /style.css HTTP/1.1" 200 1464
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:17:00:09 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:17:00:09 UTC] "GET /style.css HTTP/1.1" 200 1464
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:17:00:09 UTC] "GET /style.css HTTP/1.1" 200 1464
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:17:00:22 UTC] "GET /style.css HTTP/1.1" 200 1464
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:17:00:22 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:17:00:22 UTC] "GET /style.css HTTP/1.1" 200 1464
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:17:00:30 UTC] "GET /style.css HTTP/1.1" 200 1464
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:17:00:30 UTC] "GET / HTTP/1.1" 200 998
+- -> /
+68.185.250.22 - - [08/Nov/2017:17:00:30 UTC] "GET /style.css HTTP/1.1" 200 1464
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:17:00:58 UTC] "GET /style.css HTTP/1.1" 200 1444
+http://67.205.130.239:42302/ -> /style.css
+68.185.250.22 - - [08/Nov/2017:17:00:58 UTC
