@@ -3,7 +3,8 @@
 }
 
 body {
-  padding: 0 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 header {
@@ -16,7 +17,10 @@ header nav {
 }
 
 nav ul {
-  margin-top: 40px 0 0 0;
+  margin-top: 40px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
   padding: 0;
 }
 
@@ -84,9 +88,9 @@ div.questions p {
   margin-top: 30px;
 }
 
-div.questions a.btn{
+div.questions a.btn {
   border-radius: 5px;
-  color: : #FFF;
+  color: #FFF;
   background-color: #007bff;
   border-color: #007bff;
   text-decoration: none;
@@ -94,7 +98,7 @@ div.questions a.btn{
   font-size: 20px;
 }
 
-div.question a.btn:hover {
+div.questions a.btn:hover {
   background-color: #0069d9;
   border-color: #0069d9;
 }
