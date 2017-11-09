@@ -24,7 +24,7 @@ This lab requires you to use specific selectors in your CSS to style the HTML.
 
 #### `*`
 
-Use a global selector to set the font of the page to `"Helvetica", "Arial", "san-serif"`
+Use a global selector to set the font of the page to `"Helvetica", "Arial", "sans-serif"`
 
 
 #### `body`
@@ -103,7 +103,7 @@ Make the `h4` that contains the question content within the `div.questions` have
 
 #### `div.questions p`
 
-Make the `p` contained within `div.questions` have a top margin of `30px`.
+Make the `p` tags within the `div.questions` have a `30px` top margin.
 
 #### `div.questions a.btn`
 
