@@ -31,26 +31,13 @@ nav a {
   font-size: 18px;
 }
 
-nav a:hover {
-  text-decoration: underline;
-  color: #0056b3;
-}
-
-h3#header {
-    float: left;
-    font-size: 30px;
-}
-
-#header a {
+#header a{
   text-decoration: none;
   color: #868e96;
 }
 
-#header a:hover {
-  text-decoration: underline;
-}
 
-main {
+main{
   margin-top: 20px;
 }
 
@@ -61,7 +48,7 @@ div.jumbotron {
   text-align: center;
 }
 
-.jumbotron h1 {
+.jumbotron h1{
   font-size: 60px;
 }
 
@@ -71,35 +58,35 @@ div.jumbotron {
   line-height: 40px;
 }
 
-div.questions {
+
+header nav a:hover{
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+h3#header:hover{
+  text-decoration: underline;
+}
+
+
+div.questions
+{
   padding: 0 20px 0 20px;
 }
 
-div.questions h4 {
+div.questions h4
+{
   font-size: 30px;
   margin-bottom: 10px;
 }
 
-div.questions p {
+div.questions p
+{
   margin-top: 30px;
 }
 
-div.questions a {
-  border-radius:5px;
-  color: #FFF;
-  background-color: #007bff;
-  border-color: #007bff;
-  text-decoration: none;
-  padding: 18px;
-  font-size: 20px;
-}
-
-a.btn:hover {
-  background-color: #0069d9;
-  border-color: #0069d9;
-}
-
-div.questions a.btn {
+div.questions btn
+{
   border-radius: 5px;
   color: #FFF;
   background-color: #007bff;
@@ -109,12 +96,14 @@ div.questions a.btn {
   font-size: 20px;
 }
 
-div.questions a.btn:hover {
+div.questions btn:hover
+{
   background-color: #0069d9;
   border-color: #0069d9;
 }
 
-footer {
+
+footer{
   border-top: 1px solid #ccc;
   margin-top: 80px;
   padding-top: 20px;
