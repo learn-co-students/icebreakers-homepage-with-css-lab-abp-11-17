@@ -241,13 +241,13 @@ RSpec.describe "A Styled IceBreakers Homepage" do
 
       expect(jumbotron_p["font-size"]).to match(/20\s?px/i)        
       
-      if div_questions["padding"]
-        expect(div_questions["padding"]).to match(/0\s?40px\s?0\s?40px/i)
+      if jumbotron_p["padding"]
+        expect(jumbotron_p["padding"]).to match(/0\s?40px\s?0\s?40px/i)
       else
-        expect(div_questions["padding-top"]).to match(/0/i)
-        expect(div_questions["padding-left"]).to match(/40px/i)
-        expect(div_questions["padding-right"]).to match(/40px/i)
-        expect(div_questions["padding-bottom"]).to match(/0/i)
+        expect(jumbotron_p["padding-top"]).to match(/0/i)
+        expect(jumbotron_p["padding-left"]).to match(/40px/i)
+        expect(jumbotron_p["padding-right"]).to match(/40px/i)
+        expect(jumbotron_p["padding-bottom"]).to match(/0/i)
       end   
 
       expect(jumbotron_p["line-height"]).to match(/40\s?px/i)        
