@@ -16,91 +16,6 @@ header nav {
 }
 
 nav ul {
-  padding: 0px;
-  margin: 40px 0 0 0;
-}
-
-nav ul li{
-  display: inline;
-  margin-right: 10px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #007bff;
-  font-size: 18px;
-}
-
-nav a:hover{
-  text-decoration: underline;
-  color: #0056b3
-}
-
-h3#header{
-  float: left;
-  font-size: 30px;
-}
-
-#header a {
-  text-decoration: none;
-  color: #868e96;
-}
-
-#header a:hover {
-  text-decoration: underline;
-}
-
-main {
-  margin-top: 20px;
-}
-
-div.jumbotron {
-  border-radius: 5px;
-  padding: 10px;
-  border-color: #e9ecef;
-  text-align: center;
-}
-
-.jumbotron h1 {
-  font-size: 60px;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  padding: 0 40 0 40;
-  line-height: 40px;
-}
-
-div.questions{
-    padding: 0 20px 0 20px;
-}
-
-div.questions h4{
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-div.questions p{
-  margin-top: 30px;
-}
-
-div.questions a.btn{
-  border-radius: 5px;
-  color: #FFF;
-  background-color: #007bff;
-  border-color: #007bff;
-  text-decoration: none;
-  padding: 18px;
-  font-size: 20px;
-}
-
-div.questions a.btn:hover {
-  background-color: #0069d9;
-  border-color: #0069d9;
-}
-
-
-nav ul {
   margin: 40px 0 0 0;
   padding: 0;
 }
@@ -116,9 +31,23 @@ nav a {
   font-size: 18px;
 }
 
+nav a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+h3#header {
+  float: left;
+  font-size: 30px;
+}
+
 #header a{
   text-decoration: none;
   color: #868e96;
+}
+
+#header a:hover{
+  text-decoration: underline;
 }
 
 main{
@@ -142,8 +71,8 @@ div.jumbotron {
   line-height: 40px;
 }
 
-div.questions {
-  padding: 0 20 0 20;
+div.questions{
+  padding: 0 20px 0 20px;
 }
 
 div.questions h4{
@@ -151,19 +80,23 @@ div.questions h4{
   margin-bottom: 10px;
 }
 
+div.questions p{
+  margin-top: 30px;
+}
+
 div.questions a.btn{
   border-radius: 5px;
   color: #FFF;
   background-color: #007bff;
+  border-color: #007bff;
+  text-decoration: none;
   padding: 18px;
   font-size: 20px;
-  text-decoration: none;
 }
 
 div.questions a.btn:hover{
   background-color: #0069d9;
   border-color: #0069d9;
-
 }
 
 footer{
