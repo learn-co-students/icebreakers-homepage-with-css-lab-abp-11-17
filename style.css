@@ -1,0 +1,95 @@
+* {
+  font-family: "Helvetica", "Arial", "san-serif";
+}
+
+body {
+  padding: 0 30px 0 30px;
+}
+
+header {
+  height: 100px;
+  border-bottom: 1px solid #ccc;
+}
+
+header nav {
+  float: right;
+}
+
+nav ul {
+  margin: 40px 0 0 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+#header a{
+  text-decoration: none;
+  color: #868e96;
+}
+
+main{
+  margin-top: 20px;
+}
+
+div.jumbotron {
+  border-radius: 5px;
+  background-color: #e9ecef;
+  padding: 10px;
+  text-align: center;
+}
+
+.jumbotron h1{
+  font-size: 60px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  padding: 0 40px 0 40px;
+  line-height: 40px;
+}
+
+footer{
+  border-top: 1px solid #ccc;
+  margin-top: 80px;
+  padding-top: 20px;
+  color: #CCC;
+}
+nav a:hover{
+  text-decoration: underline;
+  color: #0056b3
+}
+#header h3 a:hover{
+  text-decoration: underline;
+}
+div.questions{
+  padding: 0 20px 0 20px;
+}
+div.questions a.btn{
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 18px;
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 20px;
+  color:#FFF
+}
+div.questions h4{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+div.questions p{
+  margin-top: 30px;
+}
+div.questions a.btn:hover{
+  background-color: #0069d9;
+  border-color: #0069d9;
+}
