@@ -62,11 +62,11 @@ div.jumbotron {
   text-align: center;
 }
 
-div.jumbotron h1 {
+.jumbotron h1 {
   font-size: 60px;
 }
 
-div.jumbotron p {
+.jumbotron p {
   font-size: 20px;
   padding: 0 40px 0 40px;
   line-height: 40px;
@@ -87,6 +87,7 @@ div.questions p {
 
 div.questions a.btn {
   border-radius: 5px;
+  color: #FFF;
   background-color: #007bff;
   border-color: #007bff;
   text-decoration: none;
@@ -102,6 +103,6 @@ div.questions a.btn:hover {
 footer {
   border-top: 1px solid #CCC;
   margin-top: 80px;
-  margin-top: 20px;
+  padding-top: 20px;
   color: #CCC;
 }
