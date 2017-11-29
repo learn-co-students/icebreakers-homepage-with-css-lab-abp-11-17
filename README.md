@@ -24,7 +24,7 @@ This lab requires you to use specific selectors in your CSS to style the HTML.
 
 #### `*`
 
-Use a global selector to set the font of the page to `"Helvetica", "Arial", "san-serif"`
+Use a global selector to set the font of the page to `"Helvetica", "Arial", "sans-serif"`
 
 
 #### `body`

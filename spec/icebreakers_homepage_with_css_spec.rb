@@ -10,7 +10,7 @@ RSpec.describe "A Styled IceBreakers Homepage" do
   end
 
   context 'General' do
-    it 'has a global selector to set font-family of "Helvetica", "Arial", "san-serif"' do
+    it 'has a global selector to set font-family of "Helvetica", "Arial", "sans-serif"' do
       css = parse_css_from_file("./style.css")
       global = css["*"]
 
