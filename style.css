@@ -1,0 +1,23 @@
+*{
+  font-family: "Helvetica", "Arial", "san-serif";
+
+}
+
+.body{
+  padding: 0 30px 30px 0;
+}
+
+.header{
+  border-bottom: 1px solid #ccc;
+  height: 100px;
+}
+
+.nav ul{
+  margin: 40px 0 0 0;
+  padding: 0 !important;
+}
+
+.nav ul li{
+  margin-right: 10px;
+  display: inline;
+}
