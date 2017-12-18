@@ -58,6 +58,39 @@ div.jumbotron{
   font-size: 60px;
 }
 .jumbotron p{
-  padding: 0 40px 40px 0;
+  padding: 0 40px 0 40px;
   font-size: 20px;
+  line-height: 40px;
+}
+div.questions{
+  padding: 0 20px 0 20px;
+
+}
+div.questions h4{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+div.questions p{
+  margin-top: 30px;
+}
+div.questions a.btn{
+  font-size: 20px;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border: 5px;
+  border-radius: 5px;
+  padding: 18px;
+  text-decoration: none;
+}
+div.questions a.btn:hover{
+background-color: #0069d9;
+border-color: #0069d9;
+}
+footer{
+  border-top: 1px;
+  border: 1px 0 0 0 solid #ccc;
+  color: #ccc;
+  margin-top: 80px;
+  padding-top: 20px;
 }
