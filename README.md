@@ -3,7 +3,6 @@
 ## Objectives
 
 1. Style the Icebreaker Homepage
-2. Learn about CSS
 
 ## Instructions
 
