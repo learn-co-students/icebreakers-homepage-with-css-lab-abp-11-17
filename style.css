@@ -1,8 +1,10 @@
 * {
-  font-family: "Helvetica", Arial, sans-serif;
+  font-family: "Helvetica", "Arial", "sans-serif";
 }
-
 body {
   padding-right: 30px;
   padding-left: 30px;
+}
+div.jumbotron {
+
 }
