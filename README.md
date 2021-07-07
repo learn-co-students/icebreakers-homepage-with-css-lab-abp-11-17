@@ -10,7 +10,7 @@ For this lab you will be combining all the knowledge you've learned of HTML and 
 
 ![IMG](https://cl.ly/nV16/Image%202017-11-03%20at%202.18.47%20PM.png)
 
-You must use the selectors specified below to stlye the elements however it is entirely possible to achieve the same results using different selectors. You are free to do so, the test suite will not pass, but all that matters is that your site looks right.
+You must use the selectors specified below to style the elements however it is entirely possible to achieve the same results using different selectors. You are free to do so, the test suite will not pass, but all that matters is that your site looks right.
 
 ## Previewing in the Browser
 
